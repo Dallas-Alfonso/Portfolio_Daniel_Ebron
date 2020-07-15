@@ -4,14 +4,16 @@ import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
+import pic2 from '../assets/images/Hotel-Rooms.png';
+import pic3 from '../assets/images/C-Stats.png';
+import pic6 from '../assets/images/Snake.png';
+import pic7 from '../assets/images/E-Commerce.png';
 import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
+import Number4 from '../Number4.gif';
+import './app.css';
+
+import {Button} from "../components/Button";
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
@@ -27,58 +29,196 @@ const IndexPage = () => (
     <div id="main">
       <section id="top" className="one dark cover">
         <div className="container">
-          <header>
-            <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
+          <header >
+{/*
+            <div className="mainBack">
+              <h8>
+                Hi! I'm Daniel
+              </h8>
               <br />
-              Web developer
-            </h2>
-            <p>I have made few things check it out.</p>
+              <h8>
+              A Web Developer
+              </h8>
+              <br />
+              <h8>
+                Let take a look at my work!
+              </h8>
+            </div>
+*/}
+            
+              
+            {/*<h2 className="alt">*/}
+              <h2>
+              <span class="backGroundBorder" >
+              Hi! I'm <strong>Daniel </strong>
+              </span>
+              <br />
+              <p>
+              <span class="backGroundBorder">
+              A Web Developer
+              </span>
+              </p>
+              </h2>
+            {/*</h2>*/}
+          
+            <p className="pColor">
+              <span class="backGroundBorder"> 
+              Let's look at my Projects!
+              </span>
+            </p>
+            
+            
           </header>
-
-          <footer>
+          
+          {/* <footer>
             <Scroll type="id" element={'portfolio'}>
               <a href="#portfolio" className="button">
                 Show me
               </a>
             </Scroll>
           </footer>
+          */}
         </div>
       </section>
 
       <section id="portfolio" className="two">
         <div className="container">
           <header>
-            <h2>Portfolio</h2>
+        
+            <h9>Portfolio</h9>
+            
           </header>
 
-          <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
-          </p>
+         
+          
+          <div className="row2"> {/*style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}} */} {/* className="row" */}
+            
 
-          <div className="row">
-            <div className="col-4 col-12-mobile">
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic2} alt="" />
-                </a>
-                <header>
-                  <h3>Ipsum Feugiat</h3>
+          <article className="grid-item">
+              <div className="containerForOverLay">
+                
+                  <img src={pic7} alt="" className="image-fitz" />
+                  <div className="overlay">
+                  <h3 className="text"> Call Me Maybe  </h3>
+                  <h3 className="text2">React | Bootstrap | JavaScipt | CSS </h3>
+                  </div>
+
+                </div>
+                <header className="headerstyle">
+
+                  <Button>
+                  <a target="_Blank" href="https://call-me-maybe.netlify.app/">
+                  <h3>Live Project</h3>
+                  </a>
+                  </Button>
+
+                  <Button>
+                  <a target="_Blank" href="https://github.com/Dallas-Alfonso/Call-Me-Maybe">
+                  <h3>Git Hub Repo</h3>
+                  </a>
+                  </Button>
                 </header>
               </article>
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic3} alt="" />
-                </a>
-                <header>
-                  <h3>Rhoncus Semper</h3>
+
+              <article className="grid-item">
+              <div className="containerForOverLay">
+                
+                  <img src={pic3} alt="" className="image-fitz"/>
+                  <div className="overlay">
+                  <h3 className="text"> Together We Stand  </h3>
+                  <h3 className="text2">React | API | Javascipt | CSS</h3>
+                  </div>
+                
+                </div> 
+
+                <header className="headerstyle">
+                  
+                  <Button type="button">
+                  <a target="_Blank" href="https://cproj.netlify.app/">
+                  <h3>Live Project</h3>
+                  </a>
+                  </Button>
+
+                  <Button>
+                    <a target="_Blank" href="https://github.com/Dallas-Alfonso/Together-We-Stand">
+                  <h3>Git Hub Repo</h3>
+                  </a>
+                    </Button>
                 </header>
               </article>
-            </div>
-            <div className="col-4 col-12-mobile">
+          
+              
+              <article className="grid-item">{/* styles container of image? */}  
+                
+              <div className="containerForOverLay">
+              
+
+                {/* styling here is for ACTUAL image */}
+                  <img src={pic2} alt="" className="image-fitz"/>
+
+                  <div className="overlay">
+                  <h3 className="text">Paradise Rooms</h3>
+                  <h3 className="text2">React | Javascipt | CSS </h3>
+                  </div>
+              </div>  
+                
+                <header className="headerstyle">
+
+                  <Button type="button" >
+                  <a target="_Blank" href="https://paradise-rooms.netlify.app/">
+                    <h3>
+                    Live Project
+                    </h3>
+                  </a>
+                  </Button>
+
+                  <Button>
+                  <a target="_Blank" href="https://github.com/Dallas-Alfonso/Paradise-Rooms">
+
+                    
+                  <h3>Git Hub Repo</h3>
+                  </a>
+                  </Button>
+                </header>
+                
+              </article>  
+              
+              <article className="grid-item">
+              <div className="containerForOverLay">
+                
+                  <img src={pic6} alt="" className="image-fitz"/>
+                  <div className="overlay">
+                  <h3 className="text"> Snake Of Doom  </h3>
+                  <h3 className="text2">React | Javascipt | CSS</h3>
+                  </div>
+              </div>
+
+                <header className="headerstyle">
+
+                  <Button>
+                    <a target="_Blank" href="https://snake-of-doom.netlify.app/">
+                  <h3>Live Project</h3>
+                  </a>
+                  </Button>
+
+                  <Button>
+                    <a target="_Blank" href="https://github.com/Dallas-Alfonso/Snake-Of-Doom">
+                  <h3>Git Hub Repo</h3>
+                  </a>
+                  </Button>
+                </header>
+              </article>
+              
+              
+            
+          </div>
+
+          
+          
+        </div>
+      </section>
+
+      {/*<div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
                   <img src={pic4} alt="" />
@@ -95,47 +235,25 @@ const IndexPage = () => (
                   <h3>Natoque Vitae</h3>
                 </header>
               </article>
-            </div>
-            <div className="col-4 col-12-mobile">
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic6} alt="" />
-                </a>
-                <header>
-                  <h3>Dolor Penatibus</h3>
-                </header>
-              </article>
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic7} alt="" />
-                </a>
-                <header>
-                  <h3>Orci Convallis</h3>
-                </header>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
+            </div>*/}
 
       <section id="about" className="three">
         <div className="container">
           <header>
-            <h2>About Me</h2>
+            <h9>About Me</h9>
           </header>
-
+          {/*
           <a href="/#" className="image featured">
             <img src={pic8} alt="" />
           </a>
-
+           */}
           <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+            I am a Web Developer with a background in Finance.  
+            I like to build reactive Web Applications and am always looking to grow, both professionally and personally.
+            I am a motivated self starter and a team player.
+            Outside of work, I enjoy boxing, biking, golfing, going on great hikes and playing basketball.
+            
+
           </p>
         </div>
       </section>
@@ -143,30 +261,35 @@ const IndexPage = () => (
       <section id="contact" className="four">
         <div className="container">
           <header>
-            <h2>Contact</h2>
+            <h9>Contact</h9>
           </header>
 
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+            Let's build something together.  Let's connect!  
           </p>
 
-          <form method="post" action="#">
+
+          {/* ?subject=Portfolio Applicants! */}
+          <form method="post" action="mailto:dallas.ebron@gmail.com" enctype="text/plain">
             <div className="row">
               <div className="col-6 col-12-mobile">
-                <input type="text" name="name" placeholder="Name" />
+                <input type="text" name="Name" placeholder="Name" />
               </div>
               <div className="col-6 col-12-mobile">
-                <input type="text" name="email" placeholder="Email" />
+                <input type="text" name="Email" placeholder="Email" />
+              </div>
+              {/* 
+              <div className="col-6 col-12-mobile">
+                <input type="text" name="Subject" placeholder="Subject" />
+              </div>
+              */}
+              <div className="col-12">
+                <textarea name="Message" placeholder="Message" />
               </div>
               <div className="col-12">
-                <textarea name="message" placeholder="Message" />
-              </div>
-              <div className="col-12">
+                
                 <input type="submit" value="Send Message" />
+                
               </div>
             </div>
           </form>
@@ -174,7 +297,7 @@ const IndexPage = () => (
       </section>
     </div>
 
-    <PageFooter />
+    
   </Layout>
 );
 

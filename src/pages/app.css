@@ -1,0 +1,208 @@
+
+/* HEADING DESIGNS */
+
+h9{
+  font-family: luminari;
+  font-size: 2.1em;
+  color: rgba(29, 27, 27, 0.753);
+  text-decoration: underline overline solid rgb(236, 161, 20);
+}
+
+
+/* Background Main */
+/* NOT IN USE */
+
+.cool{
+  color:#663399;
+}
+
+h8 {
+  color: rgb(255, 255, 255);
+  font-size: 2.5em;
+  font-weight: 500;
+  letter-spacing: -1px;
+  font-family: 'optima', sans-serif; /* georgia */
+  
+  
+  
+  /*background-color: rgba(43, 43, 43, 0.473);*/
+}
+
+.pColor{
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  font-family: papyrus;
+  font-weight: 500;
+  
+}
+
+/* background for main */
+
+.mainBack{
+  background-color: none;
+}
+
+/* this is where to edit for size of cards*/  /* PICK UP FROM HERE */
+/*  IN USE  */
+
+
+.grid-item {
+  box-shadow: 8px 10px 10px 0px rgba(0,0,0,0.4);
+  background-color: rgba(224, 219, 219, 0.904);
+  padding: 5px;
+  border: 1px solid rgb(196, 196, 196);
+  
+  border-radius: 25px;
+  
+}
+
+
+
+/* 6/8/2020 NEW SECTION. Trying to MAKE 3 LINKS By row of 3 css */
+/* IN USE */
+.headerstyle{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+/*  IN USE */
+/*
+.roomslist-center {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr)); /* repeat(auto-fill, minmax(470px, 1fr)) */
+/*
+  grid-row-gap: 2rem;
+  grid-column-gap: 40px;
+  max-width: 1170px;
+  
+  
+}
+
+
+@media screen and (min-width: 176px) {
+  .roomslist-center {
+    
+    
+  }
+}
+@media screen and (min-width: 92px) {
+  .roomslist-center {
+    
+    
+    
+  }
+}
+*/
+
+.row2{
+  display: table;
+}
+
+/* NEW TRIAL*/
+/* IN USE */
+.image-fitz{
+  max-width:100%;
+  height:auto;
+  border-radius: 25px;
+  
+
+}
+
+
+/*  IN USE */
+
+.image-fit:hover {
+  
+  transition: .5s ease;
+  opacity:0.3;
+  
+  /* OPTION transform:scale(1.5,1.5);*/
+}
+
+
+/*  New TRIAL */
+
+
+
+
+/* IN USE THE NEXT SEVERAL LINES */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(134, 134, 134);
+  border-radius: 25px;
+}
+
+.overlay:hover  {
+  opacity: .9;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 40%; /* USE THIS TO STYLE HOW PARAGRAPHS LOOK ON THE fadeOut text */
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.text2{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media only screen and (min-width: 601px) {
+  .text, .text2 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .text, .text2 {
+    font-size: 15px;
+  }
+}
+
+.containerForOverLay{
+  background-color: rgba(228, 222, 222, 0.897);
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 9px;
+  margin: auto;
+  position:relative;
+}
+
+/* IN USE THE NEXT SEVERAL LINES */
+
+
+/* Styling for Intro Portion */
+
+
+
+
+.backGroundBorder{
+  
+  background-color: rgba(204, 110, 21, 0.199);
+  
+}
