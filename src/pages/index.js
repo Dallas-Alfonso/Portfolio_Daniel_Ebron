@@ -1,16 +1,16 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import PageFooter from '../components/PageFooter';
+/* import PageFooter from '../components/PageFooter'; */
 import SideBar from '../components/SideBar';
 
 import pic2 from '../assets/images/Hotel-Rooms.png';
 import pic3 from '../assets/images/C-Stats.png';
 import pic6 from '../assets/images/Snake.png';
 import pic7 from '../assets/images/E-Commerce.png';
-import pic8 from '../assets/images/pic08.jpg';
-import Scroll from '../components/Scroll';
-import Number4 from '../Number4.gif';
+/* import pic8 from '../assets/images/pic08.jpg'; */
+/* import Scroll from '../components/Scroll'; */
+/* import Number4 from '../Number4.gif'; */
 import './app.css';
 
 import {Button} from "../components/Button";
@@ -107,13 +107,13 @@ const IndexPage = () => (
                 <header className="headerstyle">
 
                   <Button>
-                  <a target="_Blank" href="https://call-me-maybe.netlify.app/">
+                  <a target="_Blank" href="https://call-me-maybe.netlify.app/" rel="noreferrer" >
                   <h3>Live Project</h3>
                   </a>
                   </Button>
 
                   <Button>
-                  <a target="_Blank" href="https://github.com/Dallas-Alfonso/Call-Me-Maybe">
+                  <a target="_Blank" href="https://github.com/Dallas-Alfonso/Call-Me-Maybe" rel="noreferrer">
                   <h3>Git Hub Repo</h3>
                   </a>
                   </Button>
@@ -134,13 +134,13 @@ const IndexPage = () => (
                 <header className="headerstyle">
                   
                   <Button type="button">
-                  <a target="_Blank" href="https://cproj.netlify.app/">
+                  <a target="_Blank" href="https://cproj.netlify.app/" rel="noreferrer">
                   <h3>Live Project</h3>
                   </a>
                   </Button>
 
                   <Button>
-                    <a target="_Blank" href="https://github.com/Dallas-Alfonso/Together-We-Stand">
+                    <a target="_Blank" href="https://github.com/Dallas-Alfonso/Together-We-Stand" rel="noreferrer">
                   <h3>Git Hub Repo</h3>
                   </a>
                     </Button>
@@ -165,7 +165,7 @@ const IndexPage = () => (
                 <header className="headerstyle">
 
                   <Button type="button" >
-                  <a target="_Blank" href="https://paradise-rooms.netlify.app/">
+                  <a target="_Blank" href="https://paradise-rooms.netlify.app/" rel="noreferrer">
                     <h3>
                     Live Project
                     </h3>
@@ -173,7 +173,7 @@ const IndexPage = () => (
                   </Button>
 
                   <Button>
-                  <a target="_Blank" href="https://github.com/Dallas-Alfonso/Paradise-Rooms">
+                  <a target="_Blank" href="https://github.com/Dallas-Alfonso/Paradise-Rooms" rel="noreferrer">
 
                     
                   <h3>Git Hub Repo</h3>
@@ -196,13 +196,13 @@ const IndexPage = () => (
                 <header className="headerstyle">
 
                   <Button>
-                    <a target="_Blank" href="https://snake-of-doom.netlify.app/">
+                    <a target="_Blank" href="https://snake-of-doom.netlify.app/" rel="noreferrer">
                   <h3>Live Project</h3>
                   </a>
                   </Button>
 
                   <Button>
-                    <a target="_Blank" href="https://github.com/Dallas-Alfonso/Snake-Of-Doom">
+                    <a target="_Blank" href="https://github.com/Dallas-Alfonso/Snake-Of-Doom" rel="noreferrer">
                   <h3>Git Hub Repo</h3>
                   </a>
                   </Button>
@@ -273,10 +273,10 @@ const IndexPage = () => (
           <form method="post" action="mailto:dallas.ebron@gmail.com" enctype="text/plain">
             <div className="row">
               <div className="col-6 col-12-mobile">
-                <input type="text" name="Name" placeholder="Name" />
+                <input type="text" name="Name" placeholder="Name"/>
               </div>
               <div className="col-6 col-12-mobile">
-                <input type="text" name="Email" placeholder="Email" />
+                <input type="text" name="Email" placeholder="Email"/>
               </div>
               {/* 
               <div className="col-6 col-12-mobile">
