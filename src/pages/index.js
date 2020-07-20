@@ -273,10 +273,10 @@ const IndexPage = () => (
           <form method="post" action="mailto:dallas.ebron@gmail.com" enctype="text/plain">
             <div className="row">
               <div className="col-6 col-12-mobile">
-                <input type="text" name="Name" placeholder="Name"/>
+                <input aria-label="Name" type="text" name="Name" placeholder="Name"/>
               </div>
               <div className="col-6 col-12-mobile">
-                <input type="text" name="Email" placeholder="Email"/>
+                <input aria-label="Email" type="text" name="Email" placeholder="Email"/>
               </div>
               {/* 
               <div className="col-6 col-12-mobile">
@@ -284,11 +284,11 @@ const IndexPage = () => (
               </div>
               */}
               <div className="col-12">
-                <textarea name="Message" placeholder="Message" />
+                <textarea aria-label="Message" name="Message" placeholder="Message" />
               </div>
               <div className="col-12">
                 
-                <input type="submit" value="Send Message" />
+                <input aria-label="Send Message" type="submit" value="Send Message" />
                 
               </div>
             </div>
