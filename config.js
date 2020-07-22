@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: 'DE Portfolio', // <title>
-  manifestName: 'DE Portfolio',
-  manifestShortName: 'DE Portfolio', // max 12 characters
+  siteTitle: 'Portfolio Daniel Ebron', // <title>
+  manifestName: 'Portfolio Daniel Ebron',
+  manifestShortName: 'Portfolio Daniel Ebron', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
