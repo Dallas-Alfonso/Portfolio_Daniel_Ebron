@@ -20,7 +20,7 @@ module.exports = {
     {
       icon: 'fa fa-linkedin',
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/mwlite/in/daniel-ebron',
+      url: 'https://www.linkedin.com/in/daniel-ebron', 
     },
     /*
     {
