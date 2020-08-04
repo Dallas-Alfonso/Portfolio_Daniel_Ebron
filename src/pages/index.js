@@ -100,7 +100,7 @@ const IndexPage = () => (
                   <img src={pic7} alt="" className="image-fitz" />
                   <div className="overlay">
                   <h3 className="text"> Call Me Maybe  </h3>
-                  <h3 className="text2">React | Bootstrap | JavaScipt | CSS </h3>
+                  <h3 className="text2">CSS/html | JavaScipt | React | Git | Bootstrap</h3>
                   </div>
 
                 </div>
@@ -126,7 +126,7 @@ const IndexPage = () => (
                   <img src={pic3} alt="" className="image-fitz"/>
                   <div className="overlay">
                   <h3 className="text"> Together We Stand  </h3>
-                  <h3 className="text2">React | API | Javascipt | CSS</h3>
+                  <h3 className="text2">CSS/html | JavaScipt | React | Git</h3>
                   </div>
                 
                 </div> 
@@ -158,7 +158,7 @@ const IndexPage = () => (
 
                   <div className="overlay">
                   <h3 className="text">Paradise Rooms</h3>
-                  <h3 className="text2">React | Javascipt | CSS </h3>
+                  <h3 className="text2">CSS/html | JavaScipt | React | Git | Bootstrap</h3>
                   </div>
               </div>  
                 
@@ -189,7 +189,7 @@ const IndexPage = () => (
                   <img src={pic6} alt="" className="image-fitz"/>
                   <div className="overlay">
                   <h3 className="text"> Snake Of Doom  </h3>
-                  <h3 className="text2">React | Javascipt | CSS</h3>
+                  <h3 className="text2">CSS/html | JavaScipt | React | Git</h3>
                   </div>
               </div>
 
@@ -248,12 +248,7 @@ const IndexPage = () => (
           </a>
            */}
           <p>
-            I am a Web Developer with a background in Finance.  
-            I like to build reactive Web Applications and am always looking to grow, both professionally and personally.
-            I am a motivated self starter and a team player.
-            Outside of work, I enjoy boxing, biking, golfing, going on great hikes and playing basketball.
-            
-
+          Developer with proven ability to launch multiple websites; looking to pursue further professional advancement in Web Development and Design.  Experience in finance and tech that allows for a real world understanding of value in an independent critical thinker, a team player, and an effective communicator.  Always humble, eager to learn, and grow.
           </p>
         </div>
       </section>

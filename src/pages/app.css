@@ -146,7 +146,7 @@ h8 {
   opacity: .9;
 }
 
-.text {
+.text{
   color: white;
   font-size: 20px;
   position: absolute;
@@ -180,7 +180,7 @@ h8 {
 
 @media only screen and (max-width: 600px) {
   .text, .text2 {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
