@@ -147,7 +147,7 @@ h8 {
 }
 
 .text{
-  color: white;
+  color: rgb(241, 159, 7);;
   font-size: 20px;
   position: absolute;
   top: 40%; /* USE THIS TO STYLE HOW PARAGRAPHS LOOK ON THE fadeOut text */
