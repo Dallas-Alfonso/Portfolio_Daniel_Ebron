@@ -93,33 +93,40 @@ const IndexPage = () => (
           
           <div className="row2"> {/*style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}} */} {/* className="row" */}
             
-
-          <article className="grid-item">
-              <div className="containerForOverLay">
+          <article className="grid-item">{/* styles container of image? */}  
                 
-                  <img src={pic7} alt="" className="image-fitz" />
-                  <div className="overlay">
-                  <h3 className="text"> Call Me Maybe  </h3>
-                  <h3 className="text2">CSS/html | JavaScipt | React | Git | Bootstrap</h3>
-                  </div>
-
-                </div>
-                <header className="headerstyle">
-
-                  <Button>
-                  <a target="_Blank" href="https://call-me-maybe.netlify.app/" rel="noreferrer" >
-                  <h3>Live Project</h3>
-                  </a>
-                  </Button>
-
-                  <Button>
-                  <a target="_Blank" href="https://github.com/Dallas-Alfonso/Call-Me-Maybe" rel="noreferrer">
-                  <h3>Git Hub Repo</h3>
-                  </a>
-                  </Button>
-                </header>
-              </article>
-
+                <div className="containerForOverLay">
+                
+  
+                  {/* styling here is for ACTUAL image */}
+                    <img src={pic2} alt="" className="image-fitz"/>
+  
+                    <div className="overlay">
+                    <h3 className="text">Paradise Rooms</h3>
+                    <h3 className="text2">CSS/html | JavaScipt | React | Git | Bootstrap</h3>
+                    </div>
+                </div>  
+                  
+                  <header className="headerstyle">
+  
+                    <Button type="button" >
+                    <a target="_Blank" href="https://paradise-rooms.netlify.app/" rel="noreferrer">
+                      <h3>
+                      Live Project
+                      </h3>
+                    </a>
+                    </Button>
+  
+                    <Button>
+                    <a target="_Blank" href="https://github.com/Dallas-Alfonso/Paradise-Rooms" rel="noreferrer">
+  
+                      
+                    <h3>Git Hub Repo</h3>
+                    </a>
+                    </Button>
+                  </header>
+                  
+                </article>  
               <article className="grid-item">
               <div className="containerForOverLay">
                 
@@ -146,42 +153,32 @@ const IndexPage = () => (
                     </Button>
                 </header>
               </article>
-          
-              
-              <article className="grid-item">{/* styles container of image? */}  
-                
+
+              <article className="grid-item">
               <div className="containerForOverLay">
-              
-
-                {/* styling here is for ACTUAL image */}
-                  <img src={pic2} alt="" className="image-fitz"/>
-
+                
+                  <img src={pic7} alt="" className="image-fitz" />
                   <div className="overlay">
-                  <h3 className="text">Paradise Rooms</h3>
+                  <h3 className="text"> Call Me Maybe  </h3>
                   <h3 className="text2">CSS/html | JavaScipt | React | Git | Bootstrap</h3>
                   </div>
-              </div>  
-                
+
+                </div>
                 <header className="headerstyle">
 
-                  <Button type="button" >
-                  <a target="_Blank" href="https://paradise-rooms.netlify.app/" rel="noreferrer">
-                    <h3>
-                    Live Project
-                    </h3>
+                  <Button>
+                  <a target="_Blank" href="https://call-me-maybe.netlify.app/" rel="noreferrer" >
+                  <h3>Live Project</h3>
                   </a>
                   </Button>
 
                   <Button>
-                  <a target="_Blank" href="https://github.com/Dallas-Alfonso/Paradise-Rooms" rel="noreferrer">
-
-                    
+                  <a target="_Blank" href="https://github.com/Dallas-Alfonso/Call-Me-Maybe" rel="noreferrer">
                   <h3>Git Hub Repo</h3>
                   </a>
                   </Button>
                 </header>
-                
-              </article>  
+              </article>
               
               <article className="grid-item">
               <div className="containerForOverLay">
