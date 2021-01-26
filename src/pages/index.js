@@ -8,6 +8,7 @@ import pic2 from '../assets/images/Hotel-Rooms.png';
 import pic3 from '../assets/images/C-Stats.png';
 import pic6 from '../assets/images/Snake.png';
 import pic7 from '../assets/images/E-Commerce.png';
+import AmazonClone from '../assets/images/AmazonClone.png';
 /* import pic8 from '../assets/images/pic08.jpg'; */
 /* import Scroll from '../components/Scroll'; */
 /* import Number4 from '../Number4.gif'; */
@@ -92,6 +93,33 @@ const IndexPage = () => (
          
           
           <div className="row2"> {/*style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}} */} {/* className="row" */}
+
+          <article className="grid-item">
+              <div className="containerForOverLay">
+                
+                  <img src={AmazonClone} alt="" className="image-fitz"/>
+                  <div className="overlay">
+                  <h3 className="text"> Amazonn  </h3>
+                  <h3 className="text2">MongoDB | Express | React | Node | CSS/html | JavaScipt | GitHub| Heroku</h3>
+                  </div>
+                
+                </div> 
+
+                <header className="headerstyle">
+                  
+                  <Button type="button">
+                  <a target="_Blank" href="https://amazonn-app.herokuapp.com/" rel="noreferrer">
+                  <h3>Live Project</h3>
+                  </a>
+                  </Button>
+
+                  <Button>
+                    <a target="_Blank" href="https://github.com/Dallas-Alfonso/amazona" rel="noreferrer">
+                  <h3>Git Hub Repo</h3>
+                  </a>
+                    </Button>
+                </header>
+              </article>
             
           <article className="grid-item">{/* styles container of image? */}  
                 
@@ -103,7 +131,7 @@ const IndexPage = () => (
   
                     <div className="overlay">
                     <h3 className="text">Paradise Rooms</h3>
-                    <h3 className="text2">CSS/html | JavaScipt | React | Git | Bootstrap</h3>
+                    <h3 className="text2">CSS/html | JavaScipt | React | GitHub | Bootstrap | Netlify</h3>
                     </div>
                 </div>  
                   
@@ -133,7 +161,7 @@ const IndexPage = () => (
                   <img src={pic3} alt="" className="image-fitz"/>
                   <div className="overlay">
                   <h3 className="text"> Together We Stand  </h3>
-                  <h3 className="text2">CSS/html | JavaScipt | React | Git</h3>
+                  <h3 className="text2">CSS/html | JavaScipt | React | GitHub | Netlify</h3>
                   </div>
                 
                 </div> 
@@ -160,7 +188,7 @@ const IndexPage = () => (
                   <img src={pic7} alt="" className="image-fitz" />
                   <div className="overlay">
                   <h3 className="text"> Call Me Maybe  </h3>
-                  <h3 className="text2">CSS/html | JavaScipt | React | Git | Bootstrap</h3>
+                  <h3 className="text2">CSS/html | JavaScipt | React | GitHub | Bootstrap | Netlify</h3>
                   </div>
 
                 </div>
@@ -186,7 +214,7 @@ const IndexPage = () => (
                   <img src={pic6} alt="" className="image-fitz"/>
                   <div className="overlay">
                   <h3 className="text"> Snake Of Doom  </h3>
-                  <h3 className="text2">CSS/html | JavaScipt | React | Git</h3>
+                  <h3 className="text2">CSS/html | JavaScipt | React | GitHub | Netlify</h3>
                   </div>
               </div>
 
