@@ -8,7 +8,7 @@ import pic2 from '../assets/images/Hotel-Rooms.png';
 import pic3 from '../assets/images/C-Stats.png';
 import pic6 from '../assets/images/Snake.png';
 import pic7 from '../assets/images/E-Commerce.png';
-import AmazonClonee from '../assets/images/AmazonClonee.png';
+import AmazoneClone from '../assets/images/AmazoneClone.png';
 /* import pic8 from '../assets/images/pic08.jpg'; */
 /* import Scroll from '../components/Scroll'; */
 /* import Number4 from '../Number4.gif'; */
@@ -97,7 +97,7 @@ const IndexPage = () => (
           <article className="grid-item">
               <div className="containerForOverLay">
                 
-                  <img src={AmazonClonee} alt="" className="image-fitz"/>
+                  <img src={AmazoneClone} alt="" className="image-fitz"/>
                   <div className="overlay">
                   <h3 className="text"> Amazonn  </h3>
                   <h3 className="text2">MongoDB | Express | React | Node | CSS/html | JavaScipt | GitHub| Heroku</h3>
